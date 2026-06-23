@@ -1,0 +1,123 @@
+{
+  "hero": {
+    "src": "assets/img/hero.jpg",
+    "title": "Women clothes in fashion store. Shopping mall. Women fashion shopping concept.",
+    "creator": "Artem Beliaikin",
+    "creator_url": "https://www.flickr.com/photos/157635012@N07",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/157635012@N07/48014494851",
+    "source": "flickr"
+  },
+  "colec-hombre": {
+    "src": "assets/img/colec-hombre.jpg",
+    "title": "Resurrection",
+    "creator": "Terry Kearney",
+    "creator_url": "https://www.flickr.com/photos/24490288@N04",
+    "license": "by-nc",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/24490288@N04/26684975147",
+    "source": "flickr"
+  },
+  "colec-mujer": {
+    "src": "assets/img/colec-mujer.jpg",
+    "title": "contrast2",
+    "creator": "madatticbertha",
+    "creator_url": "https://www.flickr.com/photos/61909979@N03",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/61909979@N03/10737340373",
+    "source": "flickr"
+  },
+  "colec-accesorios": {
+    "src": "assets/img/colec-accesorios.jpg",
+    "title": "Coussinet Autumn / Winter Poster",
+    "creator": "be.refreshed",
+    "creator_url": "https://www.flickr.com/photos/14427328@N03",
+    "license": "by-nc-nd",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/14427328@N03/3614951691",
+    "source": "flickr"
+  },
+  "colec-temporada": {
+    "src": "assets/img/colec-temporada.jpg",
+    "title": "David Jones Autumn Winter Launch",
+    "creator": "Eva Rinaldi Celebrity Photographer",
+    "creator_url": "https://www.flickr.com/photos/58820009@N05",
+    "license": "by-sa",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/58820009@N05/6880576197",
+    "source": "flickr"
+  },
+  "about": {
+    "src": "assets/img/about.jpg",
+    "title": "Woman clothes in the store. Fashion store. Shopping mall.",
+    "creator": "Artem Beliaikin",
+    "creator_url": "https://www.flickr.com/photos/157635012@N07",
+    "license": "cc0",
+    "license_version": "1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/157635012@N07/49174901528",
+    "source": "flickr"
+  },
+  "gal-1": {
+    "src": "assets/img/gal-1.jpg",
+    "title": "Clarita Lisboa",
+    "creator": "n4i.es",
+    "creator_url": "https://www.flickr.com/photos/50952553@N06",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/50952553@N06/8859654866",
+    "source": "flickr"
+  },
+  "gal-2": {
+    "src": "assets/img/gal-2.jpg",
+    "title": "_MG_2983",
+    "creator": "mariadelajuana",
+    "creator_url": "https://www.flickr.com/photos/72933117@N07",
+    "license": "by-sa",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/72933117@N07/15420241975",
+    "source": "flickr"
+  },
+  "gal-4": {
+    "src": "assets/img/gal-4.jpg",
+    "title": "Mizpah Tower - fmr First Baptist Church - Syracuse, New York - 20210508",
+    "creator": "Andre Carrotflower",
+    "creator_url": "https://commons.wikimedia.org/wiki/User:Andre_Carrotflower",
+    "license": "by-sa",
+    "license_version": "4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "foreign_landing_url": "https://commons.wikimedia.org/w/index.php?curid=107067733",
+    "source": "wikimedia"
+  },
+  "gal-5": {
+    "src": "assets/img/gal-5.jpg",
+    "title": "graffiti baby 2",
+    "creator": "chubstock",
+    "creator_url": "https://www.flickr.com/photos/21497715@N08",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/21497715@N08/4026811715",
+    "source": "flickr"
+  },
+  "gal-6": {
+    "src": "assets/img/gal-6.jpg",
+    "title": "Zebra Print Fabric",
+    "creator": "shaire productions",
+    "creator_url": "https://www.flickr.com/photos/9822107@N08",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/9822107@N08/4190659875",
+    "source": "flickr"
+  }
+}
