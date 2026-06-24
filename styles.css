@@ -1365,3 +1365,308 @@ strong { font-weight: 500; }
     grid-template-columns: 1fr;
   }
 }
+
+/* ============================================================
+   BALBI HOME SECTION
+   ============================================================ */
+
+/* --- BANNER --- */
+.home-banner {
+  position: relative;
+  min-height: 92vh;
+  min-height: 92svh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.home-banner-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.home-banner-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+}
+
+.home-banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    rgba(8,8,8,0.88) 0%,
+    rgba(8,8,8,0.60) 45%,
+    rgba(8,8,8,0.22) 100%
+  );
+}
+
+.home-banner-content {
+  position: relative;
+  z-index: 2;
+  padding-top: var(--nav-h);
+  padding-bottom: 7rem;
+  max-width: 660px;
+}
+
+.home-tag {
+  display: block;
+  font-size: 0.64rem;
+  font-weight: 500;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 1.2rem;
+}
+
+.home-banner-title {
+  font-family: var(--font-display);
+  font-size: clamp(3.8rem, 9.5vw, 8rem);
+  font-weight: 300;
+  line-height: 1.0;
+  color: #faf8f5;
+  margin-bottom: 1.6rem;
+  text-shadow: 0 2px 40px rgba(0,0,0,0.45);
+}
+
+.home-banner-title em {
+  font-style: italic;
+  color: var(--gold-light);
+}
+
+.home-banner-sub {
+  font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+  font-weight: 300;
+  color: rgba(250,248,245,0.82);
+  max-width: 460px;
+  line-height: 1.78;
+  margin-bottom: 2.5rem;
+}
+
+.home-banner-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Stats bar */
+.home-banner-stats {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+  background: rgba(6,6,6,0.62);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 1.3rem 2rem;
+  border-top: 1px solid rgba(184,151,90,0.28);
+}
+
+.home-stat-item { text-align: center; }
+
+.home-stat-num {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--gold-light);
+  line-height: 1;
+  margin-bottom: 0.2rem;
+}
+
+.home-stat-label {
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(250,248,245,0.48);
+}
+
+.home-stat-divider {
+  width: 1px;
+  height: 32px;
+  background: rgba(184,151,90,0.28);
+}
+
+/* --- CATEGORIES --- */
+.home-cats-wrap {
+  padding: clamp(5rem, 10vw, 9rem) 0;
+  background: var(--bg-alt);
+}
+
+.home-cats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.home-cat {
+  position: relative;
+  border-radius: var(--radius);
+  overflow: hidden;
+  cursor: default;
+  transition-delay: var(--cat-delay, 0ms);
+}
+
+.home-cat-img-wrap {
+  position: relative;
+  aspect-ratio: 3/4;
+  overflow: hidden;
+}
+
+.home-cat-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s var(--ease-out);
+}
+
+.home-cat-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(10,10,10,0.75) 0%, transparent 55%);
+}
+
+@media (hover: hover) {
+  .home-cat:hover .home-cat-img-wrap img { transform: scale(1.06); }
+}
+
+.home-cat-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1.5rem;
+  z-index: 2;
+}
+
+.home-cat-title {
+  font-family: var(--font-display);
+  font-size: 1.55rem;
+  font-weight: 400;
+  color: var(--bg);
+  margin-bottom: 0.3rem;
+  line-height: 1.15;
+}
+
+.home-cat-desc {
+  font-size: 0.77rem;
+  color: rgba(250,248,245,0.72);
+  font-weight: 300;
+}
+
+/* --- PHOTO STRIP --- */
+.home-strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: clamp(220px, 26vw, 360px);
+  gap: 3px;
+  overflow: hidden;
+}
+
+.home-strip-item {
+  overflow: hidden;
+}
+
+.home-strip-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s var(--ease-out);
+}
+
+@media (hover: hover) {
+  .home-strip-item:hover img { transform: scale(1.06); }
+}
+
+/* --- LOCATION BLOCK --- */
+.home-location {
+  display: grid;
+  grid-template-columns: 1fr 1.25fr;
+  min-height: 600px;
+}
+
+.home-location-info {
+  padding: clamp(4rem, 8vw, 7rem) clamp(2rem, 6vw, 5rem);
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-loc-body {
+  font-size: 0.97rem;
+  line-height: 1.8;
+  color: var(--ink-soft);
+  margin: 1.5rem 0 0.5rem;
+  font-style: italic;
+  font-family: var(--font-display);
+  font-weight: 300;
+}
+
+.home-location-photos {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 3px;
+}
+
+.home-loc-photo {
+  overflow: hidden;
+  position: relative;
+}
+
+.home-loc-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s var(--ease-out);
+}
+
+@media (hover: hover) {
+  .home-loc-photo:hover img { transform: scale(1.04); }
+}
+
+.home-loc-photo--main {
+  grid-row: span 2;
+}
+
+/* --- RESPONSIVE BALBI HOME --- */
+@media (max-width: 1024px) {
+  .home-cats { grid-template-columns: repeat(2, 1fr); }
+  .home-strip { grid-template-columns: repeat(2, 1fr); height: clamp(200px, 35vw, 320px); }
+  .home-location { grid-template-columns: 1fr; }
+  .home-location-photos { min-height: 400px; grid-template-rows: 240px 240px; }
+}
+
+@media (max-width: 768px) {
+  .home-banner-content { max-width: 100%; text-align: left; }
+  .home-banner-stats { gap: 1.5rem; }
+  .home-cats { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  .home-strip { grid-template-columns: repeat(2, 1fr); }
+  .home-location-info { padding: clamp(3rem, 7vw, 5rem) clamp(1.5rem, 5vw, 3rem); }
+  .home-location-photos { min-height: 360px; }
+}
+
+@media (max-width: 480px) {
+  .home-cats { grid-template-columns: 1fr; }
+  .home-strip { height: 240px; }
+  .home-banner-stats { gap: 1rem; padding: 1rem; flex-wrap: wrap; }
+  .home-stat-divider { display: none; }
+  .home-stat-num { font-size: 1.6rem; }
+  .home-location-photos {
+    grid-template-columns: 1fr;
+    grid-template-rows: 280px 160px 160px;
+  }
+  .home-loc-photo--main { grid-row: auto; }
+}
